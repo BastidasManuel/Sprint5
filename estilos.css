@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#titulo {
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+h1 {background-color: greenyellow;
+    text-align: center;
+    border-radius: 20px;
+    padding: auto;
+    margin: 10px;
+
+}
+p {background-color: none;
+    border-color:green;
+    border-style: none; 
+    text-align: center;
+}
+enlace-registro{
+    margin-left: 0;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20;
+    text-align: center;
+    color: black;
+    padding: 4px;
+}
+.contenedor {
+    background-color:lightgray;
+}
+h1 {
+    background: honeydew;
+}
+.formulario {
+    background: blue;
+    border: solid black;
+}
+#logo {
+    width: 55px;
+    align-self: auto;
+    transition: 1s;
+    margin: 2px;
+}
+#btn-registrar{
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#enlace-registro:hover, #enlace-inicio:hover{
+    background-color: rgb(2, 77, 18);
+    color: aquamarine;
+    }
+ 
+#enlace-registro:active, #enlace-inicio:active{
+    background-color:rgb(255, 174, 0);
+    color: greenyellow;
+    }
+#contenido{
+    height: 400px;
+    width:200px;
+}
+#contenido h1 {
+    text-align: center;
+}
+#contenido p {
+    width: 80%;
+    margin: 0 auto;
+}
+#contenedorForm{
+    background-color:azure;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+#labelCabecera {
+    display: block;
+    background-color:aquamarine;
+    height: 20px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    padding-left: 10px;
+    padding-top: 5px;
+    font: bold large serif;
+}
+#form-login input{
+    display: block;
+    margin-top: 2px;
+    font-size: 18px;
+    width: 60%;
+    background-color: rgb(204, 198, 198);
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+#form-login label{
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+
+#contenedorBtn{
+    text-align:center;
+    width:50%;
+}
+#contenedorcaptcha input{
+    width: 20%;
+}
+#btn-submit-form{
+    margin-top: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+#texto{
+    margin: 20PX;
+    text-align: center;
+}
+.cambioColor{
+    background-color: blue;
+    color: aquamarine;
+}
+#logo:hover{
+    transform: rotate(360deg);
+}
+
+
