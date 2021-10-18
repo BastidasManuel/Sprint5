@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingresar Cuenta</title>
-    <link rel ="stylesheet" href = "estilos.css">
+    <title>Formulario Login</title>
+    <link href="estilos.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1> Iniciar sesión </h1>
-    <form id="form-login"> <br>
-        <label for = "correo"> Correo </label> <br>
-        <input id "correo" type ="email"><br>
-        <label for = "contrasena"> Contraseña </label><br>
-        <input id "contrasena" type = "password"> <br>
-        <div id="contenedorcaptcha">
-            <input id "captcha" type = "captcha">
-            <label for = "captcha"> CAPCHA </label>
-        </div>
-        <div id="contenedorBtn">
-            <input type="submit" id="btn-submit-form" value="Login">
-        </div>
-    </form>
-    
+    <div class="contenedor">
+        <h2>Iniciar sesión </h2>
+        <form id="form-login" name="form-login">
+            <div class="elemento">
+                <label for="correo"> Correo </label> <br/>
+                <input type="email" id="correo" name="correo" required="true"/>
+            </div>
+            <div class="elemento">
+                <label for="contrasena"> Contraseña </label> <br/>
+                <input type="password" id="contrasena" name="contrasena" required="true"/>
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Login"/>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
